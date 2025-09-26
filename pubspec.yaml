@@ -1,0 +1,46 @@
+name: portfolio_assignment
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using flutter pub publish. This is preferred for private packages.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  # CORRECTED: Using a stable Dart 3.x range.
+  # This avoids the error from an unreleased version (^3.8.1).
+  sdk: '>=3.0.0 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended stable version for Dart 3.x projects.
+  flutter_lints: ^4.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  # Asset declaration section.
+  # This MUST be aligned exactly under 'flutter:' (like 'uses-material-design').
+  assets:
+    # This line MUST be indented exactly two spaces from 'assets:'.
+    # Ensure the folder 'assets' exists and the file is named '23XV1M0513.jpeg'.
+    - assets/23XVM10513.jpeg
+
+  # To add custom fonts to your application, add a fonts section here:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
